@@ -1,5 +1,13 @@
-train: E:\desktop\CQUGRS\datasets\images\train
-val: E:\desktop\CQUGRS\datasets\images\val
+train: ../train/images
+val: ../valid/images
+test: ../test/images
 
-nc: 2  # 假设有 2 个检测类别，如 apex, digit_box
-names: ["apex", "digit_box"]
+nc: 1
+names: ['-sign-']
+
+roboflow:
+  workspace: chouzhipeng
+  project: detectsign-kxzp6
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/chouzhipeng/detectsign-kxzp6/dataset/1
