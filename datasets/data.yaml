@@ -1,6 +1,5 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: E:/desktop/CQUGRS/datasets/train/images
+val: E:/desktop/CQUGRS/datasets/valid/images
 
 nc: 1
 names: ['-sign-']
